@@ -266,5 +266,5 @@ delete_recursive("/data/miui/app/recommended");
 unmount("/cust");
 ui_print("Installing custom recovery");
 ui_print("Flashing TWRP Touch recovery...");
-package_extract_file("recovery/twrp.img", "/dev/block/bootdevice/by-name/recovery");
+package_extract_file("recovery/twrp.img", "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery");
 set_progress(1);
